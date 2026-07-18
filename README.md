@@ -69,7 +69,7 @@ Senha: borracharia123
 
 ## Demonstração
 
-https://interface-gerencial-configuravel-3tj37eqjb-hcarolrs-projects.vercel.app
+    https://interface-gerencial-configuravel.vercel.app/
 
 ## Observação acadêmica
 
