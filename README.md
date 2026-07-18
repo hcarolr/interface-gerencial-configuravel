@@ -40,8 +40,6 @@ Cada cenário utiliza a mesma base de componentes, mas possui módulos, campos, 
 - localStorage
 
 ## Estrutura do projeto
-
-```text
 src/
   components/
     auth/
