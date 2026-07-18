@@ -70,7 +70,9 @@ src/
 
 ## Observação acadêmica
   Este projeto possui finalidade acadêmica e foi desenvolvido como protótipo funcional para estudo de arquitetura front-end modular, componentização, reutilização de software e parametrização por metadados.
+  
   A persistência de dados foi implementada localmente no navegador, por meio de localStorage, com o objetivo de demonstrar os fluxos funcionais da interface sem a implementação de uma camada completa de back-end e os dados utilizados são fictícios.
+  
   O projeto não representa um produto comercial finalizado, mas sim uma proposta técnica e acadêmica de aplicação configurável para diferentes contextos gerenciais.
 
 ## Autoria
