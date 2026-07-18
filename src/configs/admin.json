@@ -1,0 +1,23 @@
+{
+  "domain": "admin",
+  "title": "Administração Geral",
+  "subtitle": "Configurações gerais da plataforma parametrizável",
+  "icon": "⚙️",
+  "configFile": "admin.json",
+  "theme": {
+    "name": "platform",
+    "label": "Plataforma",
+    "primary": "#0f172a",
+    "primaryDark": "#020617",
+    "accent": "#2563eb",
+    "soft": "#dbeafe",
+    "logo": "⚙️"
+  },
+  "modules": [
+    {
+      "key": "settings",
+      "label": "Configurações",
+      "type": "settings"
+    }
+  ]
+}

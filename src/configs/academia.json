@@ -1,0 +1,232 @@
+{
+  "domain": "academia",
+  "title": "Gestão de Academia",
+  "subtitle": "Sistema gerencial para academia de artes marciais",
+  "icon": "🥋",
+  "configFile": "academia.json",
+  "theme": {
+    "name": "blue",
+    "primary": "#1e40af",
+    "primaryDark": "#172554",
+    "accent": "#3b82f6",
+    "soft": "#dbeafe",
+    "logo": "🥋"
+  },
+  "summary": [
+    {
+      "label": "Módulos",
+      "value": "6"
+    },
+    {
+      "label": "Cenário",
+      "value": "Academia"
+    },
+    {
+      "label": "Arquivo",
+      "value": "academia.json"
+    }
+  ],
+  "modules": [
+    {
+      "key": "dashboard",
+      "label": "Dashboard",
+      "type": "dashboard"
+    },
+    {
+      "key": "alunos",
+      "label": "Alunos",
+      "type": "crud",
+      "entity": "Aluno",
+      "description": "Cadastro e acompanhamento de alunos",
+      "fields": [
+        {
+          "name": "nome",
+          "label": "Nome",
+          "type": "text"
+        },
+        {
+          "name": "cpf",
+          "label": "CPF",
+          "type": "text"
+        },
+        {
+          "name": "plano",
+          "label": "Plano",
+          "type": "text"
+        },
+        {
+          "name": "matricula",
+          "label": "Data de Matrícula",
+          "type": "date"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "professores",
+      "label": "Professores",
+      "type": "crud",
+      "entity": "Professor",
+      "description": "Cadastro de professores e modalidades",
+      "fields": [
+        {
+          "name": "nome",
+          "label": "Nome",
+          "type": "text"
+        },
+        {
+          "name": "modalidade",
+          "label": "Modalidade",
+          "type": "text"
+        },
+        {
+          "name": "graduacao",
+          "label": "Graduação",
+          "type": "text"
+        },
+        {
+          "name": "telefone",
+          "label": "Telefone",
+          "type": "text"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "aulas",
+      "label": "Aulas",
+      "type": "crud",
+      "entity": "Aula",
+      "description": "Planejamento de aulas, modalidades e horários",
+      "fields": [
+        {
+          "name": "modalidade",
+          "label": "Modalidade",
+          "type": "select",
+          "options": ["Jiu-jitsu", "Muay Thai", "Boxe", "Funcional"]
+        },
+        {
+          "name": "professor",
+          "label": "Professor",
+          "type": "text"
+        },
+        {
+          "name": "diaSemana",
+          "label": "Dia da semana",
+          "type": "select",
+          "options": [
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira",
+            "Sábado"
+          ]
+        },
+        {
+          "name": "horario",
+          "label": "Horário",
+          "type": "time"
+        },
+        {
+          "name": "vagas",
+          "label": "Vagas",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "select",
+          "options": ["Ativo", "Pendente", "Finalizado"]
+        }
+      ]
+    },
+    {
+      "key": "financeiro",
+      "label": "Financeiro",
+      "type": "crud",
+      "entity": "Lançamento",
+      "description": "Controle simplificado de contas a pagar e receber",
+      "fields": [
+        {
+          "name": "descricao",
+          "label": "Descrição",
+          "type": "text"
+        },
+        {
+          "name": "categoria",
+          "label": "Categoria",
+          "type": "select",
+          "options": ["Receita", "Despesa"]
+        },
+        {
+          "name": "vencimento",
+          "label": "Vencimento",
+          "type": "date"
+        },
+        {
+          "name": "valor",
+          "label": "Valor",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "estoque",
+      "label": "Estoque",
+      "type": "crud",
+      "entity": "Produto",
+      "description": "Controle de produtos e materiais",
+      "fields": [
+        {
+          "name": "produto",
+          "label": "Produto",
+          "type": "text"
+        },
+        {
+          "name": "quantidade",
+          "label": "Quantidade",
+          "type": "number"
+        },
+        {
+          "name": "fornecedor",
+          "label": "Fornecedor",
+          "type": "text"
+        },
+        {
+          "name": "preco",
+          "label": "Preço",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "relatorios",
+      "label": "Relatórios",
+      "type": "reports"
+    },
+    {
+      "key": "configuracoes",
+      "label": "Configurações",
+      "type": "settings"
+    }
+  ]
+}

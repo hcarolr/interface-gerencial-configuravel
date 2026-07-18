@@ -1,0 +1,32 @@
+[
+  {
+    "id": "admin-geral",
+    "name": "Administradora Geral",
+    "email": "admin@demo.com",
+    "password": "admin123",
+    "businessName": "Sistema Parametrizável",
+    "scenario": "admin",
+    "role": "Administrador Geral",
+    "canSwitchScenario": true
+  },
+  {
+    "id": "user-academia",
+    "name": "Gestora Academia",
+    "email": "academia@demo.com",
+    "password": "academia123",
+    "businessName": "Academia Rangel",
+    "scenario": "academia",
+    "role": "Administrador",
+    "canSwitchScenario": false
+  },
+  {
+    "id": "user-borracharia",
+    "name": "Gestor Borracharia",
+    "email": "borracharia@demo.com",
+    "password": "borracharia123",
+    "businessName": "Borracharia Rangel",
+    "scenario": "borracharia",
+    "role": "Administrador",
+    "canSwitchScenario": false
+  }
+]

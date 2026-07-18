@@ -1,0 +1,230 @@
+{
+  "domain": "borracharia",
+  "title": "Gestão de Borracharia",
+  "subtitle": "Sistema gerencial para controle de veículos e serviços",
+  "icon": "tire-logo",
+  "configFile": "borracharia.json",
+  "theme": {
+    "name": "brown",
+    "primary": "#7c2d12",
+    "primaryDark": "#431407",
+    "accent": "#a16207",
+    "soft": "#fef3c7",
+    "logo": "tire-logo"
+  },
+  "summary": [
+    {
+      "label": "Módulos",
+      "value": "6"
+    },
+    {
+      "label": "Cenário",
+      "value": "Borracharia"
+    },
+    {
+      "label": "Arquivo",
+      "value": "borracharia.json"
+    }
+  ],
+  "modules": [
+    {
+      "key": "dashboard",
+      "label": "Dashboard",
+      "type": "dashboard"
+    },
+    {
+      "key": "veiculos",
+      "label": "Veículos",
+      "type": "crud",
+      "entity": "Veículo",
+      "description": "Cadastro e acompanhamento de veículos",
+      "fields": [
+        {
+          "name": "placa",
+          "label": "Placa",
+          "type": "text"
+        },
+        {
+          "name": "modelo",
+          "label": "Modelo",
+          "type": "text"
+        },
+        {
+          "name": "marca",
+          "label": "Marca",
+          "type": "text"
+        },
+        {
+          "name": "cliente",
+          "label": "Cliente",
+          "type": "text"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "clientes",
+      "label": "Clientes",
+      "type": "crud",
+      "entity": "Cliente",
+      "description": "Cadastro de clientes atendidos",
+      "fields": [
+        {
+          "name": "nome",
+          "label": "Nome",
+          "type": "text"
+        },
+        {
+          "name": "telefone",
+          "label": "Telefone",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "E-mail",
+          "type": "email"
+        },
+        {
+          "name": "cidade",
+          "label": "Cidade",
+          "type": "text"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "servicos",
+      "label": "Serviços",
+      "type": "crud",
+      "entity": "Serviço",
+      "description": "Registro de serviços realizados",
+      "fields": [
+        {
+          "name": "tipo",
+          "label": "Tipo de Serviço",
+          "type": "text"
+        },
+        {
+          "name": "veiculo",
+          "label": "Veículo",
+          "type": "text"
+        },
+        {
+          "name": "data",
+          "label": "Data",
+          "type": "date"
+        },
+        {
+          "name": "valor",
+          "label": "Valor",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "estoque",
+      "label": "Estoque",
+      "type": "crud",
+      "entity": "Produto",
+      "description": "Controle de pneus, peças e materiais da oficina",
+      "fields": [
+        {
+          "name": "produto",
+          "label": "Produto",
+          "type": "text"
+        },
+        {
+          "name": "categoria",
+          "label": "Categoria",
+          "type": "select",
+          "options": [
+            "Pneu",
+            "Câmara",
+            "Válvula",
+            "Ferramenta",
+            "Material de reparo"
+          ]
+        },
+        {
+          "name": "fornecedor",
+          "label": "Fornecedor",
+          "type": "text"
+        },
+        {
+          "name": "quantidade",
+          "label": "Quantidade",
+          "type": "number"
+        },
+        {
+          "name": "valorUnitario",
+          "label": "Valor unitário",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "select",
+          "options": ["Disponível", "Baixo estoque", "Indisponível"]
+        }
+      ]
+    },
+    {
+      "key": "financeiro",
+      "label": "Financeiro",
+      "type": "crud",
+      "entity": "Lançamento",
+      "description": "Controle simplificado de entradas e saídas",
+      "fields": [
+        {
+          "name": "descricao",
+          "label": "Descrição",
+          "type": "text"
+        },
+        {
+          "name": "categoria",
+          "label": "Categoria",
+          "type": "select",
+          "options": ["Receita", "Despesa"]
+        },
+        {
+          "name": "vencimento",
+          "label": "Vencimento",
+          "type": "date"
+        },
+        {
+          "name": "valor",
+          "label": "Valor",
+          "type": "number"
+        },
+        {
+          "name": "situacao",
+          "label": "Situação",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "relatorios",
+      "label": "Relatórios",
+      "type": "reports"
+    },
+    {
+      "key": "configuracoes",
+      "label": "Configurações",
+      "type": "settings"
+    }
+  ]
+}

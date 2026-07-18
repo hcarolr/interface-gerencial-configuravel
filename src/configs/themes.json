@@ -1,0 +1,89 @@
+{
+  "academia": [
+    {
+      "name": "blue",
+      "label": "Azul tatame",
+      "primary": "#1e40af",
+      "primaryDark": "#172554",
+      "accent": "#3b82f6",
+      "soft": "#dbeafe",
+      "logo": "🥋"
+    },
+    {
+      "name": "purple",
+      "label": "Roxo premium",
+      "primary": "#6d28d9",
+      "primaryDark": "#3b0764",
+      "accent": "#8b5cf6",
+      "soft": "#ede9fe",
+      "logo": "🥋"
+    },
+    {
+      "name": "black-belt",
+      "label": "Faixa preta",
+      "primary": "#27272a",
+      "primaryDark": "#09090b",
+      "accent": "#f59e0b",
+      "soft": "#fef3c7",
+      "logo": "🥋"
+    }
+  ],
+  "borracharia": [
+    {
+      "name": "brown",
+      "label": "Marrom oficina",
+      "primary": "#7c2d12",
+      "primaryDark": "#431407",
+      "accent": "#a16207",
+      "soft": "#fef3c7",
+      "logo": "tire-logo"
+    },
+    {
+      "name": "graphite",
+      "label": "Grafite pneu",
+      "primary": "#334155",
+      "primaryDark": "#0f172a",
+      "accent": "#64748b",
+      "soft": "#e2e8f0",
+      "logo": "tire-logo"
+    },
+    {
+      "name": "orange",
+      "label": "Laranja mecânica",
+      "primary": "#c2410c",
+      "primaryDark": "#7c2d12",
+      "accent": "#f97316",
+      "soft": "#ffedd5",
+      "logo": "tire-logo"
+    }
+  ],
+  "admin": [
+    {
+      "name": "platform",
+      "label": "Plataforma",
+      "primary": "#0f172a",
+      "primaryDark": "#020617",
+      "accent": "#2563eb",
+      "soft": "#dbeafe",
+      "logo": "⚙️"
+    },
+    {
+      "name": "green-platform",
+      "label": "Verde plataforma",
+      "primary": "#166534",
+      "primaryDark": "#052e16",
+      "accent": "#16a34a",
+      "soft": "#dcfce7",
+      "logo": "⚙️"
+    },
+    {
+      "name": "purple-platform",
+      "label": "Roxo plataforma",
+      "primary": "#6d28d9",
+      "primaryDark": "#3b0764",
+      "accent": "#8b5cf6",
+      "soft": "#ede9fe",
+      "logo": "⚙️"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "veiculos": [
+    {
+      "placa": "ABC1D23",
+      "modelo": "Onix",
+      "marca": "Chevrolet",
+      "cliente": "Marcos Pereira",
+      "situacao": "Em atendimento"
+    },
+    {
+      "placa": "XYZ9A87",
+      "modelo": "HB20",
+      "marca": "Hyundai",
+      "cliente": "Juliana Rocha",
+      "situacao": "Finalizado"
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Marcos Pereira",
+      "telefone": "(16) 98888-1000",
+      "email": "marcos@email.com",
+      "cidade": "Ribeirão Preto",
+      "situacao": "Ativo"
+    },
+    {
+      "nome": "Juliana Rocha",
+      "telefone": "(16) 98888-2000",
+      "email": "juliana@email.com",
+      "cidade": "Sertãozinho",
+      "situacao": "Ativo"
+    }
+  ],
+  "servicos": [
+    {
+      "tipo": "Troca de pneu",
+      "veiculo": "Onix",
+      "data": "2026-06-09",
+      "valor": "90.00",
+      "situacao": "Finalizado"
+    },
+    {
+      "tipo": "Reparo de câmara",
+      "veiculo": "HB20",
+      "data": "2026-06-09",
+      "valor": "45.00",
+      "situacao": "Em atendimento"
+    }
+  ],
+  "estoque": [
+    {
+      "produto": "Pneu aro 15",
+      "categoria": "Pneu",
+      "fornecedor": "Distribuidora Sul",
+      "quantidade": "8",
+      "valorUnitario": "320.00",
+      "situacao": "Disponível"
+    },
+    {
+      "produto": "Câmara de ar",
+      "categoria": "Câmara",
+      "fornecedor": "Auto Peças Central",
+      "quantidade": "5",
+      "valorUnitario": "45.00",
+      "situacao": "Disponível"
+    },
+    {
+      "produto": "Válvula para pneu",
+      "categoria": "Válvula",
+      "fornecedor": "Fornecedor Oficina",
+      "quantidade": "2",
+      "valorUnitario": "12.00",
+      "situacao": "Baixo estoque"
+    }
+  ],
+  "financeiro": [
+    {
+      "descricao": "Serviço realizado",
+      "categoria": "Receita",
+      "vencimento": "2026-06-09",
+      "valor": "90.00",
+      "situacao": "Recebido"
+    },
+    {
+      "descricao": "Compra de material",
+      "categoria": "Despesa",
+      "vencimento": "2026-06-12",
+      "valor": "300.00",
+      "situacao": "Pendente"
+    }
+  ]
+}

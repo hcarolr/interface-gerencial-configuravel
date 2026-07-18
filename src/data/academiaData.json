@@ -1,0 +1,92 @@
+{
+  "alunos": [
+    {
+      "nome": "Ana Souza",
+      "cpf": "123.456.789-00",
+      "plano": "Mensal",
+      "matricula": "2026-06-01",
+      "situacao": "Ativo"
+    },
+    {
+      "nome": "Carlos Lima",
+      "cpf": "987.654.321-00",
+      "plano": "Trimestral",
+      "matricula": "2026-05-15",
+      "situacao": "Ativo"
+    }
+  ],
+  "professores": [
+    {
+      "nome": "Rafael Nunes",
+      "modalidade": "Jiu-jitsu",
+      "graduacao": "Faixa preta",
+      "telefone": "(16) 99999-1000",
+      "situacao": "Ativo"
+    },
+    {
+      "nome": "Marina Lopes",
+      "modalidade": "Muay Thai",
+      "graduacao": "Instrutora",
+      "telefone": "(16) 99999-2000",
+      "situacao": "Ativo"
+    }
+  ],
+  "aulas": [
+    {
+      "modalidade": "Jiu-jitsu",
+      "professor": "Rafael Nunes",
+      "diaSemana": "Segunda-feira",
+      "horario": "18:30",
+      "vagas": "18",
+      "situacao": "Ativo"
+    },
+    {
+      "modalidade": "Muay Thai",
+      "professor": "Marina Lopes",
+      "diaSemana": "Quarta-feira",
+      "horario": "20:00",
+      "vagas": "14",
+      "situacao": "Ativo"
+    },
+    {
+      "modalidade": "Funcional",
+      "professor": "Marina Lopes",
+      "diaSemana": "Sábado",
+      "horario": "09:00",
+      "vagas": "10",
+      "situacao": "Pendente"
+    }
+  ],
+  "financeiro": [
+    {
+      "descricao": "Mensalidade aluno",
+      "categoria": "Receita",
+      "vencimento": "2026-06-10",
+      "valor": "150.00",
+      "situacao": "Recebido"
+    },
+    {
+      "descricao": "Energia elétrica",
+      "categoria": "Despesa",
+      "vencimento": "2026-06-15",
+      "valor": "420.00",
+      "situacao": "Pendente"
+    }
+  ],
+  "estoque": [
+    {
+      "produto": "Kimono",
+      "quantidade": "12",
+      "fornecedor": "Fornecedor A",
+      "preco": "250.00",
+      "situacao": "Disponível"
+    },
+    {
+      "produto": "Luva",
+      "quantidade": "8",
+      "fornecedor": "Fornecedor B",
+      "preco": "120.00",
+      "situacao": "Disponível"
+    }
+  ]
+}
