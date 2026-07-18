@@ -41,17 +41,22 @@ Cada cenário utiliza a mesma base de componentes, mas possui módulos, campos, 
 
 ## Estrutura do projeto
 
-src/
-components/
-auth/
-dashboard/
-layout/
-reports/
-settings/
-ui/
-configs/
-data/
-utils/
+<<<<<<< HEAD
+
+=======
+
+> > > > > > > 42c253b6e20f42c20cf52e85acfe0395bdd2ecff
+> > > > > > > src/
+> > > > > > > components/
+> > > > > > > auth/
+> > > > > > > dashboard/
+> > > > > > > layout/
+> > > > > > > reports/
+> > > > > > > settings/
+> > > > > > > ui/
+> > > > > > > configs/
+> > > > > > > data/
+> > > > > > > utils/
 
 ## Cenários de acesso demonstrativo
 
