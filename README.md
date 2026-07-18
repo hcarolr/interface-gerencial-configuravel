@@ -53,31 +53,26 @@ src/
   utils/
 
 ## Cenários de acesso demonstrativo
-
-    Admin geral
-    E-mail: admin@demo.com
-    Senha: admin123
-
-    Academia
-    E-mail: academia@demo.com
-    Senha: academia123
-
-    Borracharia
-    E-mail: borracharia@demo.com
-    Senha: borracharia123
+  Admin geral
+  E-mail: admin@demo.com
+  Senha: admin123
+  
+  Academia
+  E-mail: academia@demo.com
+  Senha: academia123
+  
+  Borracharia
+  E-mail: borracharia@demo.com
+  Senha: borracharia123
 
 ## Demonstração
-    https://interface-gerencial-configuravel.vercel.app
+  https://interface-gerencial-configuravel-3tj37eqjb-hcarolrs-projects.vercel.app
 
 ## Observação acadêmica
-
-    Este projeto possui finalidade acadêmica e foi desenvolvido como protótipo funcional para estudo de arquitetura front-end modular, componentização, reutilização de software e parametrização por metadados.
-
-    A persistência de dados foi implementada localmente no navegador, por meio de localStorage, com o objetivo de demonstrar os fluxos funcionais da interface sem a implementação de uma camada completa de back-end e os dados utilizados são fictícios.
-
-    O projeto não representa um produto comercial finalizado, mas sim uma proposta técnica e acadêmica de aplicação configurável para diferentes contextos gerenciais.
+  Este projeto possui finalidade acadêmica e foi desenvolvido como protótipo funcional para estudo de arquitetura front-end modular, componentização, reutilização de software e parametrização por metadados.
+  A persistência de dados foi implementada localmente no navegador, por meio de localStorage, com o objetivo de demonstrar os fluxos funcionais da interface sem a implementação de uma camada completa de back-end e os dados utilizados são fictícios.
+  O projeto não representa um produto comercial finalizado, mas sim uma proposta técnica e acadêmica de aplicação configurável para diferentes contextos gerenciais.
 
 ## Autoria
-
-    Projeto desenvolvido por Carolina Rangel, como parte do MBA em Engenharia de Software da USP/ESALQ.
+  Projeto desenvolvido por Carolina Rangel, como parte do MBA em Engenharia de Software da USP/ESALQ.
 ```
