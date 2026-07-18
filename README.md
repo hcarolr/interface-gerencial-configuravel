@@ -1,16 +1,55 @@
-# React + Vite
+# Interface Gerencial Configurável
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Protótipo acadêmico de uma interface gerencial configurável, desenvolvido como parte do Trabalho de Conclusão de Curso do MBA em Engenharia de Software da USP/ESALQ.
 
-Currently, two official plugins are available:
+O projeto tem como objetivo demonstrar a aplicação de componentização, reutilização de software e parametrização por metadados na construção de interfaces front-end voltadas a sistemas gerenciais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+A aplicação apresenta uma base de interface reutilizável capaz de se adaptar a diferentes cenários de negócio por meio de arquivos de configuração.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Nesta versão, foram implementados dois cenários demonstrativos:
 
-## Expanding the ESLint configuration
+- Academia
+- Borracharia
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cada cenário utiliza a mesma estrutura de componentes, mas com módulos, campos, dados e identidade visual configurados de forma independente.
+
+## Funcionalidades
+
+- Login demonstrativo por perfil de usuário
+- Carregamento de cenário conforme o usuário autenticado
+- Interface parametrizada por arquivos JSON
+- Temas visuais configuráveis
+- Módulos gerenciais reutilizáveis
+- Cadastro funcional de alunos no cenário Academia
+- Cadastro funcional de produtos no estoque da Borracharia
+- Persistência local dos registros via localStorage
+- Relatórios com prévia em tela
+- Exportação de relatórios em CSV
+- Área administrativa demonstrativa para criação de usuários
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+- JSON
+- localStorage
+
+## Cenários de acesso demonstrativo
+
+```text
+Admin geral
+E-mail: admin@demo.com
+Senha: admin123
+
+Academia
+E-mail: academia@demo.com
+Senha: academia123
+
+Borracharia
+E-mail: borracharia@demo.com
+Senha: borracharia123
+```
