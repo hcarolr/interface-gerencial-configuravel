@@ -77,4 +77,3 @@ src/
 
 ## Autoria
   Projeto desenvolvido por Carolina Rangel, como parte do MBA em Engenharia de Software da USP/ESALQ.
-```
